@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lovedog"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.lovedog.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityA"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityB"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityC"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityD"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityF"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityE"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityG"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityH"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityI"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityJ"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.example.lovedog.MainActivityK"
+            android:label="@string/app_name" >
+            </activity>
+    </application>
+
+</manifest>
